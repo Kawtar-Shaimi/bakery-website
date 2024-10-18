@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Home section */
+
+.home{
+    width:100%;
+    height:813px;
+    background-image: url("../imgs/backgroundHome.png");
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    height: 15%;
+}
+
+.logo-container{
+    width: 7%;
+    margin-left: 5%;
+    margin-top: 17px;
+}
+
+.logo{
+    width: 100%;
+}
+
+header nav{
+    width:85%;
+}
+
+header nav ul{
+    width:50%;
+    height:100%;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    list-style:none;
+    margin-left: 70px;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size :22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+header nav ul li:first-child a{
+    color:#E9BD8C ;
+}
+
+.home .content{
+    margin-top: 15%;
+    width: 50%;
+    margin-left: 5%;
+}
+
+.home .content h3{
+    color: #E9BD8C;
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+}
+
+.home .content h1{
+    font-size: 80px;
+    color: white;
+    font-family: "Sansita Swashed";
+}
+
+.home .content .links{
+    width: 100%;
+    margin-top: 10%;
+}
+
+.home .content button{ 
+    background-color: #933C24;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 24px 38px;
+    font-size: 24px;
+}
+
+.home .content .btn-link{
+    color: white;
+    text-decoration: none;
+}
+
+.home .content a:not(.btn-link){
+    font-size: 24px;
+    text-decoration: none;
+    color: #E9BD8C;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-top: 22px;
+    font-family: "Inter", sans-serif;
+}
+
+/* Shop section */
+
+.products{
+    display: flex;
+    flex-wrap : wrap;
+    justify-content: space-around;
+    width: 90%;
+    margin: 100px auto;
+}
+
+.card-img{
+    background-image: url("../imgs/backgroundBakery.png");
+    background-size: cover;
+    width: 30%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+}
+
+.inside-img{
+    display: block;
+    width: 65%;
+    margin: auto;
+    margin-top: 4%;
+    height: 235px;
+}
+
+div .i, .shop-section .products .card-img .body-card{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px;
+}
+
+div .i p, div .body-card p{
+    color:white;
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+}
+
+.card-img div span{
+    width: 34px;
+    height: 34px;
+    color: #fff;
+    border: #fff 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 46px;
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+}
+
+div .add{
+    color: white;
+    background-color: #933C24;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-size: 24px;
+    display: block;
+    margin: auto 25px;
+}
+
+/* Banner Section */
+
+.banner{
+    background-image: url(../imgs/bakery15.png);
+    background-size: cover;
+    width: 100%;
+    height:442px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-banner{
+    width: 25%;
+}
+
+.body-banner .reduction{
+    font-family: "Sansita Swashed";
+    color: #933C24;
+    font-weight: bold;
+    font-size: 48px;
+    margin-top: 5px;
+}
+
+.body-banner .description{
+    color:#5D5D5D;
+    font-size: 24px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+.description, .reduction{
+    text-align: center;
+    margin:20px;
+}
+
+.body-banner .learn-btn{
+    display: flex;
+    justify-content: center;
+    background-color: #933C24;
+    border: 1px solid black;
+    color: white;
+    font-size: 24px;
+    border-radius: 10px;
+    padding: 15px 38px;
+    margin: auto;
+}
+
+/* Explore Section */
+
+.header{
+    font-family: "Sansita Swashed";
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    font-size: 64px;
+    margin: 62px;
+}
+
+.explore-nav ul{
+    display:flex;
+    justify-content: space-around;
+    width: 75%;
+    margin: auto;
+    list-style: none;
+    border-bottom: 1px solid gray;
+    padding-bottom: 11px;
+}
+
+.explore-nav ul li a{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #5D5D5D;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 5px;
+}
+
+.explore-nav ul li:first-child a{
+    border-bottom: 6px solid #933C24;
+}
+
+/* Explore More with Flex */
+/* .images{
+    width:75%;
+    margin: 8% auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.images img {
+    width: 30%;
+    margin-bottom: 20px ;
+} */
+
+/* explore more with grid */
+
+.explore .images{
+    display :grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 75%;
+    margin: 8% auto;
+    gap: 20px;
+} 
+
+.explore .images img{
+    width: 100%;
+}
+
+/* About Us Section */
+
+.aboutUs{
+    background-image: url(../imgs/bakery14.png);
+    background-size: cover;
+    width: 100%;
+    height:442px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-aboutUs{
+    width: 25%;
+    margin: auto;
+}
+
+.body-aboutUs p:first-child {
+    font-family: "Sansita Swashed";
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+    margin-top: 5px;
+}
+
+.body-aboutUs .d{
+    color:#B9B9B9;
+    font-size: 24px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+.d, .title{
+    text-align: center;
+    margin:20px;
+}
+
+.body-aboutUs .read-btn{
+    display: flex;
+    justify-content: center;
+    background-color: #933C24;
+    border: 1px solid black;
+    color: white;
+    font-size: 24px;
+    border-radius: 10px;
+    padding: 15px 38px;
+    margin: auto;
+}
+
+/* Feature threads Section */
+
+.feature .pics{
+    display :grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 75%;
+    margin: 8% auto;
+    gap: 20px;
+}
+
+.feature .pics img{
+    width: 100%;
+}
+
+.pics .img-info{
+    width: 90%;
+    margin: 2% auto;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+}
+
+/* Footer section */
+
+footer{
+    background-image: url(../imgs/backgroundFooter.png);
+    background-size: cover;
+    height: 633px;
+}
+
+footer p{
+    font-family: "Inter", sans-serif;
+}
+
+.content-container{
+    width: 90%;
+    margin: auto;
+}
+
+.footer-header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border-bottom: 1px solid rgba(233, 189, 141, 0.2);
+    padding: 10px 0;
+}
+
+.media-nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.media-nav p{
+    font-size: 24px;
+    font-weight: bold;
+    color: #E9BD8C;
+    margin-right: 10%;
+}
+
+.media-nav .media{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+}
+
+.media-nav .media img{
+    width: 100%;
+}
+
+.footer-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.footer-content .title{
+    font-size: 36px;
+    font-weight: bold;
+    color: #E9BD8C;
+    margin-bottom: 25px;
+    text-align: left;
+    margin-left: 0;
+}
+
+.footer-content p{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.footer-content .news{
+    display: flex;
+}
+
+.footer-content .content{
+    margin-left: 20px;
+}
+
+.footer-content .content .title{
+    color: white;
+    font-size: 24px; 
+}
+
+.footer-content .content .date{
+    color: #E9BD8C;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.copyright{
+    margin-top: 8%;
+    grid-column: span 3;
+}
+
+.copyright p{
+    color: #737373;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
