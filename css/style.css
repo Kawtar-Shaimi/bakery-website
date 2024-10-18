@@ -202,11 +202,15 @@ div .add{
     justify-content: center;
     background-color: #933C24;
     border: 1px solid black;
-    color: white;
-    font-size: 24px;
     border-radius: 10px;
     padding: 15px 38px;
     margin: auto;
+}
+
+.body-banner .learn-btn a{
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
 }
 
 /* Explore Section */
@@ -313,11 +317,15 @@ div .add{
     justify-content: center;
     background-color: #933C24;
     border: 1px solid black;
-    color: white;
-    font-size: 24px;
     border-radius: 10px;
     padding: 15px 38px;
     margin: auto;
+}
+
+.body-aboutUs .read-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
 }
 
 /* Feature threads Section */
@@ -405,11 +413,26 @@ footer p{
     margin-left: 0;
 }
 
+.footer-content .title a{
+    font-size: 36px;
+    font-weight: bold;
+    color: #E9BD8C;
+    text-align: left;
+    text-decoration: none;
+}
+
 .footer-content p{
     font-size: 24px;
     font-weight: bold;
     color: white;
     margin-bottom: 15px;
+}
+
+.footer-content p a{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
 }
 
 .footer-content .news{

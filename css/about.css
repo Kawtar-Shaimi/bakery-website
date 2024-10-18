@@ -234,11 +234,26 @@ footer p{
     margin-left: 0;
 }
 
+.footer-content .title a{
+    font-size: 36px;
+    font-weight: bold;
+    color: #E9BD8C;
+    text-align: left;
+    text-decoration: none;
+}
+
 .footer-content p{
     font-size: 24px;
     font-weight: bold;
     color: white;
     margin-bottom: 15px;
+}
+
+.footer-content p a{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
 }
 
 .footer-content .news{
