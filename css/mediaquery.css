@@ -1,3 +1,41 @@
+/* Small Laptops and Large Tablets: 1025px – 1280px */
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    div .i, .shop-section .products .card-img .body-card{
+        margin: 20px;
+        margin-right: 0;
+    }
+
+    div .i p, div .body-card p, div .add{
+        font-size: 19px;
+    }
+
+    .aboutUs, .banner{
+        height: 350px;
+    }
+
+    .body-aboutUs, .body-banner{
+        width: 35%;
+    }
+
+    footer{
+        height: 550px;
+    }
+
+    .footer-content p, .footer-content .content .title{
+        font-size: 19px;
+    }
+
+    .footer-content .content .date{
+        font-size: 16px;
+    }
+
+    .copyright{
+        margin-top: 5%;
+    }
+    
+}
+
 /* Tablets: 768px – 1024px */
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -124,6 +162,389 @@
 
     .footer-content .content .date{
         font-size: 12px;
+    }
+
+    .copyright{
+        margin-top: 5%;
+    }
+}
+
+/* Mobile (Landscape): 481px – 767px */
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    
+    .home{
+        height: 313px;
+    }
+
+    header{
+        padding-top: 5px;
+    }
+
+    .logo-container{
+        width: 9%;
+        margin-top: 0;
+    }
+
+    header nav ul{
+        width: 65%;
+        margin-left: 10px;
+    }
+
+    header nav ul li a{
+        font-size : 12px;
+    }
+    
+    .home .content{
+        width: 40%;
+        margin-top: 10%;
+    }
+
+    .home .content h1{
+        font-size: 30px;
+    }
+    
+    .home .content h3,
+    .home .content button,
+    .home .content a:not(.btn-link){ 
+        font-size: 12px;
+    }
+
+    .home .content button{
+        border-radius: 8px;
+        padding: 10px;
+    }
+
+    .header{
+        font-size: 24px;
+        margin: 42px;
+    }
+
+    .products .card-img{
+        width: 45%;
+        margin-bottom: 5%;
+    }
+
+    .inside-img{
+        width: 80%;
+        height: 120px;
+    }
+    
+    div .i, .shop-section .products .card-img .body-card{
+        margin: 20px;
+        margin-right: 0;
+    }
+
+    div .i p, div .body-card p, div .add{
+        font-size: 12px;
+    }
+
+    .card-img div span{
+        width: 24px;
+        height: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+    }
+
+    .shop-section .products .card-img .body-card{
+        justify-content: unset;
+    }
+
+    div .body-card p{
+        width: 50%;
+    }
+    
+    div .add{
+        padding: 10px;
+        margin-left: 10px;
+    }
+
+    .aboutUs, .banner{
+        height: 165px;
+        background-size: contain;
+    }
+
+    .body-aboutUs, .body-banner{
+        width: 40%;
+    }
+
+    .body-banner .reduction, .body-aboutUs p:first-child{
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+    
+    .body-banner .description,.body-aboutUs .d{
+        font-size: 12px;
+        margin: 8px;
+    }
+    
+    .body-banner .learn-btn,
+    .body-aboutUs .read-btn{
+        font-size: 12px;
+        border-radius: 8px;
+        padding: 6px 10px;
+    }
+
+    .explore-nav ul{
+        padding-bottom: 6px;
+    }
+
+    .explore-nav ul li a{
+        font-size: 12px;
+    }
+
+    .explore-nav ul li:first-child a{
+        border-bottom: 4px solid #933C24;
+    }
+
+    .pics .img-info{
+        font-size: 12px;
+    }
+
+    footer{
+        height: 350px;
+    }
+
+    .content-container{
+        width: 95%;
+    }
+
+    footer .logo img{
+        width: 20%;
+    }
+
+    .media-nav p{
+        font-size: 12px;
+    }
+
+    .media-nav .media{
+        width: 50%;
+    }
+
+    .footer-content .title{
+        font-size: 16px;
+    }
+    
+    .footer-content p{
+        font-size: 12px;
+    }
+
+    .news .img-container{
+        width: 35%;
+    }
+
+    .news .img-container img{
+        width: 100%;
+    }
+    
+    .footer-content .content{
+        margin-left: 5px;
+    }
+
+    .footer-content .content .title{
+        font-size: 11px;
+        margin: 0;
+    }
+
+    .footer-content .content .date{
+        font-size: 8px;
+    }
+
+    .copyright{
+        margin-top: 5%;
+    }
+}
+
+/* Mobile (Portrait): 320px – 480px */
+
+@media screen and (max-width: 480px) {
+    
+    .home{
+        height: 213px;
+    }
+
+    header{
+        padding-top: 5px;
+    }
+
+    .logo-container{
+        width: 12%;
+        margin-top: 0;
+    }
+
+    header nav ul{
+        width: 65%;
+        margin-left: 10px;
+    }
+
+    header nav ul li a{
+        font-size : 8px;
+    }
+    
+    .home .content{
+        width: 40%;
+        margin-top: 15%;
+    }
+
+    .home .content h1{
+        font-size: 15px;
+    }
+    
+    .home .content h3,
+    .home .content button,
+    .home .content a:not(.btn-link){ 
+        font-size: 8px;
+    }
+
+    .home .content button{
+        border-radius: 5px;
+        padding: 6px;
+    }
+
+    .header{
+        font-size: 24px;
+        margin: 22px;
+    }
+
+    .products{
+        margin: 50px auto;
+        display: block;
+    }
+
+    .products .card-img{
+        width: 70%;
+        height: 250px;
+        margin: auto;
+        margin-bottom: 5%;
+    }
+
+    .inside-img{
+        width: 70%;
+        height: 140px;
+    }
+    
+    div .i, .shop-section .products .card-img .body-card{
+        margin: 15px;
+        margin-right: 0;
+        margin-left: 20px;
+    }
+
+    div .i p, div .body-card p, div .add{
+        font-size: 12px;
+    }
+
+    .card-img div span{
+        width: 24px;
+        height: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+    }
+
+    .shop-section .products .card-img .body-card{
+        justify-content: unset;
+    }
+
+    div .body-card p{
+        width: 50%;
+    }
+    
+    div .add{
+        padding: 10px;
+        margin-left: 10px;
+    }
+
+    .aboutUs, .banner{
+        height: 120px;
+    }
+
+    .body-aboutUs, .body-banner{
+        width: 40%;
+    }
+
+    .body-banner .reduction, .body-aboutUs p:first-child{
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    
+    .body-banner .description,.body-aboutUs .d{
+        font-size: 8px;
+        margin: 8px;
+    }
+    
+    .body-banner .learn-btn,
+    .body-aboutUs .read-btn{
+        font-size: 8px;
+        border-radius: 4px;
+        padding: 4px 8px;
+    }
+
+    .explore-nav ul{
+        padding-bottom: 4px;
+    }
+
+    .explore-nav ul li a{
+        font-size: 8px;
+    }
+
+    .explore-nav ul li:first-child a{
+        border-bottom: 2px solid #933C24;
+    }
+
+    .pics .img-info{
+        font-size: 8px;
+    }
+
+    footer{
+        height: 280px;
+    }
+
+    .content-container{
+        width: 95%;
+    }
+
+    footer .logo img{
+        width: 20%;
+    }
+
+    .media-nav p{
+        font-size: 8px;
+    }
+
+    .media-nav .media{
+        width: 60%;
+    }
+
+    .footer-content .title{
+        font-size: 12px;
+    }
+    
+    .footer-content p{
+        font-size: 8px;
+    }
+
+    .news .img-container{
+        width: 35%;
+    }
+
+    .news .img-container img{
+        width: 100%;
+    }
+    
+    .footer-content .content{
+        margin-left: 5px;
+    }
+
+    .footer-content .content .title{
+        font-size: 7px;
+        margin: 0;
+    }
+
+    .footer-content .content .date{
+        font-size: 8px;
     }
 
     .copyright{
