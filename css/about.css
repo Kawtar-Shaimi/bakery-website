@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width:100%;
+    background-image: url("../imgs/backgroundFooter.png");
+    background-size: ccver;
+    display: flex;
+    height: 15%;
+}
+
+.logo-container{
+    width: 7%;
+    margin-left: 5%;
+}
+
+.logo{
+    width: 100%;
+}
+
+header nav{
+    width:85%;
+}
+
+header nav ul{
+    width:50%;
+    height:100%;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    list-style:none;
+    margin-left: 70px;
+    margin-top: 14px;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size :22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+header nav ul li:first-child a{
+    color:#E9BD8C ;
+}
+
+.about .banner {
+    width: 100%;
+    height: 537px;
+    margin-left: 0%;
+}
+
+.banner{
+    background-image: url(../imgs/bakery14.png);
+    background-size: cover;
+    width: 100%;
+    height: 452px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-banner{
+    width: 25%;
+}
+
+.body-banner .title{
+    font-family: "Sansita Swashed";
+    color: #E9BD8C;
+    font-weight: bold;
+    font-size: 48px;
+    margin-top: 5px;
+}
+
+.body-banner .description{
+    color:#B9B9B9;
+    font-size: 24px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+.description, .title{
+    text-align: center;
+    margin:20px;
+}
+
+.body-banner .learn-btn{
+    display: flex;
+    justify-content: center;
+    background-color: #933C24;
+    border: 1px solid black;
+    color: white;
+    font-size: 24px;
+    border-radius: 10px;
+    padding: 15px 38px;
+    margin: auto;
+}
+
+/* seperator */
+
+.seperator{
+    width:100%;
+    background-image: url("../imgs/seperator.png");
+    background-size: cover;
+    min-height: 82px;
+}
+
+/* Our Story / Unique section */
+
+.story, .unique{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(../imgs/cookies.jpg);
+    background-size: cover;
+    width:100%;
+    min-height:100vh;
+}
+
+.unique{
+    background-image: url(../imgs/uniqueBg.png);
+}
+
+.left-img img, .right-img img{
+    width: 386px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 25px #2F2F2F;
+}
+
+.right-img img{
+    display: block;
+    margin-left: auto;
+}
+
+.row{
+    display :grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 75%;
+    margin: auto;
+    padding: 8% 0;
+}
+
+.story .row .col:last-child, .unique .row .col:first-child{
+    background-image: url("../imgs/backgroundFooter.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 25px #2F2F2F;
+}
+
+.story .row .col:last-child .content, .unique .row .col:first-child .content{
+    width: 90%;
+    margin: auto;
+}
+
+.story .row .col:last-child .content .title, .unique .row .col:first-child .content .title{
+    font-family: "Sansita Swashed";
+    color: #E9BD8C;
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 5%;
+}
+
+.story .row .col:last-child .content .description, .unique .row .col:first-child .description {
+    font-family: "Sansita Swashed";
+    color: #B9B9B9;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 41px;
+}
+
+/* Footer section */
+
+footer{
+    background-image: url(../imgs/backgroundFooter.png);
+    background-size: cover;
+    height: 633px;
+}
+
+footer p{
+    font-family: "Inter", sans-serif;
+}
+
+.content-container{
+    width: 90%;
+    margin: auto;
+}
+
+.footer-header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border-bottom: 1px solid rgba(233, 189, 141, 0.2);
+    padding: 10px 0;
+}
+
+.media-nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.media-nav p{
+    font-size: 24px;
+    font-weight: bold;
+    color: #E9BD8C;
+    margin-right: 10%;
+}
+
+.media-nav .media{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+}
+
+.media-nav .media img{
+    width: 100%;
+}
+
+.footer-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.footer-content .title{
+    font-size: 36px;
+    font-weight: bold;
+    color: #E9BD8C;
+    margin-bottom: 25px;
+    text-align: left;
+    margin-left: 0;
+}
+
+.footer-content p{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.footer-content .news{
+    display: flex;
+}
+
+.footer-content .content{
+    margin-left: 20px;
+}
+
+.footer-content .content .title{
+    color: white;
+    font-size: 24px; 
+}
+
+.footer-content .content .date{
+    color: #E9BD8C;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.copyright{
+    margin-top: 8%;
+    grid-column: span 3;
+}
+
+.copyright p{
+    color: #737373;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
