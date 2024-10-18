@@ -1,0 +1,132 @@
+/* Tablets: 768px – 1024px */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    .home{
+        height: 613px;
+    }
+
+    .logo-container{
+        width: 10%;
+    }
+
+    header nav ul{
+        width: 65%;
+    }
+
+    header nav ul li a{
+        font-size : 19px;
+    }
+    
+    .home .content{
+        width: 60%;
+    }
+
+    .home .content h1{
+        font-size: 60px;
+    }
+    
+    .home .content h3,
+    .home .content button,
+    .home .content a:not(.btn-link){ 
+        font-size: 20px;
+    }
+
+    .header{
+        font-size: 44px;
+        margin: 82px;
+    }
+
+    .products .card-img{
+        width: 45%;
+    }
+
+    .inside-img{
+        width: 80%;
+    }
+    
+    div .i, .shop-section .products .card-img .body-card{
+        margin: 20px;
+        margin-right: 0;
+    }
+
+    div .i p, div .body-card p, div .add{
+        font-size: 20px;
+    }
+
+    .aboutUs, .banner{
+        height: 260px;
+    }
+
+    .body-aboutUs, .body-banner{
+        width: 35%;
+    }
+
+    .body-banner .reduction, .body-aboutUs p:first-child{
+        font-size: 30px;
+    }
+    
+    .body-banner .description,.body-aboutUs .d{
+        font-size: 18px;
+    }
+    
+    .body-banner .learn-btn,
+    .body-aboutUs .read-btn{
+        font-size: 18px;
+        border-radius: 8px;
+        padding: 10px 30px;
+    }
+
+    .explore-nav ul li a{
+        font-size: 20px;
+    }
+
+    .pics .img-info{
+        font-size: 20px;
+    }
+
+    footer{
+        height: 450px;
+    }
+
+    footer .logo img{
+        width: 20%;
+    }
+
+    .media-nav p{
+        font-size: 20px;
+    }
+
+    .media-nav .media{
+        width: 50%;
+    }
+
+    .footer-content .title{
+        font-size: 26px;
+    }
+    
+    .footer-content p{
+        font-size: 16px;
+    }
+
+    .news .img-container{
+        width: 40%;
+    }
+
+    .news .img-container img{
+        width: 100%;
+    }
+
+    .footer-content .content .title{
+        font-size: 14px;
+        margin-right: 0;
+    }
+
+    .footer-content .content .date{
+        font-size: 12px;
+    }
+
+    .copyright{
+        margin-top: 5%;
+    }
+}
